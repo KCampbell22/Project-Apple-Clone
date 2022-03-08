@@ -184,6 +184,9 @@ html {
   font-size: 100%;
   color: #1d1d1f;
 }
+body{
+  font-size: 100%;
+}
 
 nav {
   height: 5.5vh;
@@ -347,19 +350,25 @@ nav ul {
   display: block;
   height: 5vh;
 }
+.background{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 .photo {
   width: 100vw;
-  height: 53vh;
+  height: 28rem;
+  padding: 20px;
   z-index: -1;
 }
 .background-cover {
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 #hero-13 {
   background-image: url(images/Iphone-hero.png);
-  height: 49.1vh;
+  height: 25rem;
   margin-bottom: 10px;
 }
 #purple {
@@ -385,7 +394,7 @@ nav ul {
   overflow: hidden;
 }
 .lower-img img {
-  width: 50vw;
+  width: 100%;
 }
 #watch-1 {
   grid-column-start: 1;
@@ -516,3 +525,5 @@ h3 {
 .country {
   z-index: 4;
 }
+
+
